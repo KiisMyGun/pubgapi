@@ -1,0 +1,195 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/wangfuguo/项目/pubgapi/pubgapi.Database.Migrations/pubgapi.Database.Migrations.csproj": {}
+  },
+  "projects": {
+    "/Users/wangfuguo/项目/pubgapi/pubgapi.Core/pubgapi.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wangfuguo/项目/pubgapi/pubgapi.Core/pubgapi.Core.csproj",
+        "projectName": "pubgapi.Core",
+        "projectPath": "/Users/wangfuguo/项目/pubgapi/pubgapi.Core/pubgapi.Core.csproj",
+        "packagesPath": "/Users/wangfuguo/.nuget/packages/",
+        "outputPath": "/Users/wangfuguo/项目/pubgapi/pubgapi.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/wangfuguo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Furion": {
+              "target": "Package",
+              "version": "[4.1.14, )"
+            },
+            "Furion.Extras.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[4.1.14, )"
+            },
+            "Furion.Extras.ObjectMapper.Mapster": {
+              "target": "Package",
+              "version": "[4.1.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/wangfuguo/项目/pubgapi/pubgapi.Database.Migrations/pubgapi.Database.Migrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wangfuguo/项目/pubgapi/pubgapi.Database.Migrations/pubgapi.Database.Migrations.csproj",
+        "projectName": "pubgapi.Database.Migrations",
+        "projectPath": "/Users/wangfuguo/项目/pubgapi/pubgapi.Database.Migrations/pubgapi.Database.Migrations.csproj",
+        "packagesPath": "/Users/wangfuguo/.nuget/packages/",
+        "outputPath": "/Users/wangfuguo/项目/pubgapi/pubgapi.Database.Migrations/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/wangfuguo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/wangfuguo/项目/pubgapi/pubgapi.EntityFramework.Core/pubgapi.EntityFramework.Core.csproj": {
+                "projectPath": "/Users/wangfuguo/项目/pubgapi/pubgapi.EntityFramework.Core/pubgapi.EntityFramework.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/wangfuguo/项目/pubgapi/pubgapi.EntityFramework.Core/pubgapi.EntityFramework.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/wangfuguo/项目/pubgapi/pubgapi.EntityFramework.Core/pubgapi.EntityFramework.Core.csproj",
+        "projectName": "pubgapi.EntityFramework.Core",
+        "projectPath": "/Users/wangfuguo/项目/pubgapi/pubgapi.EntityFramework.Core/pubgapi.EntityFramework.Core.csproj",
+        "packagesPath": "/Users/wangfuguo/.nuget/packages/",
+        "outputPath": "/Users/wangfuguo/项目/pubgapi/pubgapi.EntityFramework.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/wangfuguo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/wangfuguo/项目/pubgapi/pubgapi.Core/pubgapi.Core.csproj": {
+                "projectPath": "/Users/wangfuguo/项目/pubgapi/pubgapi.Core/pubgapi.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

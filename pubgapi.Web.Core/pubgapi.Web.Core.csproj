@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DocumentationFile>pubgapi.Web.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="pubgapi.Web.Core.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\pubgapi.Application\pubgapi.Application.csproj" />
+    <ProjectReference Include="..\pubgapi.Database.Migrations\pubgapi.Database.Migrations.csproj" />
+  </ItemGroup>
+
+</Project>
