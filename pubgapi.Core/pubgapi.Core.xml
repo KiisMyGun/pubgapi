@@ -4,5 +4,20 @@
         <name>pubgapi.Core</name>
     </assembly>
     <members>
+        <member name="M:pubgapi.Core.Model.Player.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:pubgapi.Core.Model.Player.PubgName">
+            <summary>
+            昵称
+            </summary>
+        </member>
+        <member name="P:pubgapi.Core.Model.Player.PubgId">
+            <summary>
+            编号
+            </summary>
+        </member>
     </members>
 </doc>

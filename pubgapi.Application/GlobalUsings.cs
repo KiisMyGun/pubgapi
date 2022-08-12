@@ -1,4 +1,6 @@
-﻿global using Furion;
+﻿global using System;
+
+global using Furion;
 global using Furion.DatabaseAccessor;
 global using Furion.DataEncryption;
 global using Furion.DataValidation;

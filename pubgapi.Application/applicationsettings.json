@@ -27,5 +27,11 @@
       "x-access-token",
       "environment"
     ]
+  },
+  "PubgInfo": {
+    "ApiKey": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5MWE2ODVjMC1mYjVlLTAxM2EtMjE1MS0yNzQ4YzRhN2Q1ZDYiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNjYwMTkzMjIzLCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6InJlZF9lbnZlbG9wZV9iIn0.KfO2shtP71NsQ98XkOOVl_lZFLparEXgrVArn9ysQTE"
+  },
+  "ConnectionStrings": {
+    "PubgDBConnectionString": "Data Source=rm-bp1rp2hyn0le85379uo.mysql.rds.aliyuncs.com;Database=Pubg;User ID=root;Password=d5KR5JygYcYAU56QYT83;pooling=true;port=3306;sslmode=none;CharSet=utf8;"
   }
 }

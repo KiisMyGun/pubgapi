@@ -162,9 +162,16 @@ $RECYCLE.BIN/
 .vscode
 
 /.vs/pubgapi
-./pubgapi.Application/obj/*
-./pubgapi.Core/obj/*
-./pubgapi.Database.Migrations/obj/*
-./pubgapi.EntityFramework.Core/obj/*
-./pubgapi.Web.Core/obj/*
-./pubgapi.Web.Entry/obj/*
+/pubgapi.Application/obj
+/pubgapi.Core/obj
+/pubgapi.Database.Migrations/obj
+/pubgapi.EntityFramework.Core/obj
+/pubgapi.Web.Core/obj
+/pubgapi.Web.Entry/obj
+/.vs/ProjectEvaluation
+/pubgapi.Application/obj
+/pubgapi.Core/obj
+/pubgapi.Database.Migrations/obj
+/pubgapi.EntityFramework.Core/obj
+/pubgapi.Web.Entry/obj
+/pubgapi.Web.Core/obj

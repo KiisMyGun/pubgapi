@@ -4,6 +4,49 @@
         <name>pubgapi.Application</name>
     </assembly>
     <members>
+        <member name="T:pubgapi.Application.RedEB.Dtos.LastMatchDto">
+            <summary>
+            最后一次对局
+            </summary>
+        </member>
+        <member name="P:pubgapi.Application.RedEB.Dtos.LastMatchDto.TeamPlay.Name">
+            <summary>
+            玩家昵称
+            </summary>
+        </member>
+        <member name="P:pubgapi.Application.RedEB.Dtos.LastMatchDto.TeamPlay.Kills">
+            <summary>
+            击杀人数
+            </summary>
+        </member>
+        <member name="P:pubgapi.Application.RedEB.Reqs.GetLastMatchReq.playName">
+            <summary>
+            玩家昵称
+            </summary>
+        </member>
+        <member name="T:pubgapi.Application.RedEB.Services.IRedEBService">
+            <summary>
+            红包局服务
+            </summary>
+        </member>
+        <member name="T:pubgapi.Application.System.RedEBAppService">
+            <summary>
+            红包局控制器
+            </summary>
+        </member>
+        <member name="M:pubgapi.Application.System.RedEBAppService.SetPlayer(pubgapi.Application.RedEB.Reqs.SetPlayerReq)">
+            <summary>
+            设置玩家
+            </summary>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:pubgapi.Application.System.RedEBAppService.GetLastMatch(pubgapi.Application.RedEB.Reqs.GetLastMatchReq)">
+            <summary>
+            获取最后一场对局
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:pubgapi.Application.SystemAppService">
             <summary>
             系统服务接口

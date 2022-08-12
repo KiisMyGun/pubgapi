@@ -1,4 +1,6 @@
 ﻿using Furion;
+using Furion.DatabaseAccessor;
+
 using Microsoft.Extensions.DependencyInjection;
 
 namespace pubgapi.EntityFramework.Core;
@@ -9,7 +11,7 @@ public class Startup : AppStartup
     {
         services.AddDatabaseAccessor(options =>
         {
-            options.AddDbPool<DefaultDbContext>();
+            options.AddDbPool<DefaultDbContext>($"{DbProvider.MySql}@8.0.22");
         }, "pubgapi.Database.Migrations");
     }
 }
