@@ -160,3 +160,11 @@ $RECYCLE.BIN/
 
 # VisualStudioCode
 .vscode
+
+/.vs/pubgapi
+./pubgapi.Application/obj/*
+./pubgapi.Core/obj/*
+./pubgapi.Database.Migrations/obj/*
+./pubgapi.EntityFramework.Core/obj/*
+./pubgapi.Web.Core/obj/*
+./pubgapi.Web.Entry/obj/*
