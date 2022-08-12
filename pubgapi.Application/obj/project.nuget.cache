@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xohPdcVRTF7Wcw55BHkW60swb3f96wiq61zjzZn956AdilhOxWVQ9it1xRwPFuXVgTos4m7Nqov5zkcN4vJmPg==",
+  "dgSpecHash": "FOGzMGzVRphrhLfiVId/gwag9DT2SSQS7lbTMFsJXPtr1v6g4FUnzz8jQQbTPGr/4tcGC3wXCl8NP9KVPrKd+w==",
   "success": true,
   "projectFilePath": "/Users/wangfuguo/项目/pubgapi/pubgapi.Application/pubgapi.Application.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "/Users/wangfuguo/.nuget/packages/furion.extras.authentication.jwtbearer/4.1.14/furion.extras.authentication.jwtbearer.4.1.14.nupkg.sha512",
     "/Users/wangfuguo/.nuget/packages/furion.extras.dependencymodel.codeanalysis/4.1.14/furion.extras.dependencymodel.codeanalysis.4.1.14.nupkg.sha512",
     "/Users/wangfuguo/.nuget/packages/furion.extras.objectmapper.mapster/4.1.14/furion.extras.objectmapper.mapster.4.1.14.nupkg.sha512",
+    "/Users/wangfuguo/.nuget/packages/jsonapiserializer/1.3.1/jsonapiserializer.1.3.1.nupkg.sha512",
     "/Users/wangfuguo/.nuget/packages/mapster/7.3.0/mapster.7.3.0.nupkg.sha512",
     "/Users/wangfuguo/.nuget/packages/mapster.core/1.2.0/mapster.core.1.2.0.nupkg.sha512",
     "/Users/wangfuguo/.nuget/packages/mapster.dependencyinjection/1.0.0/mapster.dependencyinjection.1.0.0.nupkg.sha512",
@@ -46,7 +47,8 @@
     "/Users/wangfuguo/.nuget/packages/miniprofiler.aspnetcore.mvc/4.2.22/miniprofiler.aspnetcore.mvc.4.2.22.nupkg.sha512",
     "/Users/wangfuguo/.nuget/packages/miniprofiler.shared/4.2.22/miniprofiler.shared.4.2.22.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
-    "/Users/wangfuguo/.nuget/packages/newtonsoft.json/10.0.3/newtonsoft.json.10.0.3.nupkg.sha512",
+    "/Users/wangfuguo/.nuget/packages/newtonsoft.json/11.0.1/newtonsoft.json.11.0.1.nupkg.sha512",
+    "/Users/wangfuguo/.nuget/packages/pubg-dotnet/2.3.0/pubg-dotnet.2.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -72,11 +74,8 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",
     "/Users/wangfuguo/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.collections.nongeneric/4.3.0/system.collections.nongeneric.4.3.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.collections.specialized/4.3.0/system.collections.specialized.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.componentmodel/4.3.0/system.componentmodel.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.componentmodel.primitives/4.3.0/system.componentmodel.primitives.4.3.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.componentmodel.typeconverter/4.3.0/system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.console/4.3.0/system.console.4.3.0.nupkg.sha512",
     "/Users/wangfuguo/.nuget/packages/system.data.common/4.3.0/system.data.common.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
@@ -117,7 +116,6 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.runtime.interopservices/4.3.0/system.runtime.interopservices.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.runtime.interopservices.runtimeinformation/4.3.0/system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.runtime.numerics/4.3.0/system.runtime.numerics.4.3.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.runtime.serialization.formatters/4.3.0/system.runtime.serialization.formatters.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.runtime.serialization.primitives/4.3.0/system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.security.cryptography.algorithms/4.3.0/system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
@@ -138,8 +136,7 @@
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.threading.tasks.parallel/4.3.0/system.threading.tasks.parallel.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.threading.timer/4.3.0/system.threading.timer.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512"
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

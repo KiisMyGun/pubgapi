@@ -26,4 +26,8 @@
 		<Folder Include="System\Services\" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="Pubg-DotNet" Version="2.3.0" />
+	</ItemGroup>
+
 </Project>

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Pubg.Net;
 
 namespace pubgapi.Web.Core;
 
@@ -35,6 +36,11 @@ public class Startup : AppStartup
         app.UseAuthorization();
 
         app.UseInject(string.Empty);
+
+        PubgApiConfiguration.Configure(opt => 
+        {
+            opt.ApiKey = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5MWE2ODVjMC1mYjVlLTAxM2EtMjE1MS0yNzQ4YzRhN2Q1ZDYiLCJpc3MiOiJnYW1lbG9ja2VyIiwiaWF0IjoxNjYwMTkzMjIzLCJwdWIiOiJibHVlaG9sZSIsInRpdGxlIjoicHViZyIsImFwcCI6InJlZF9lbnZlbG9wZV9iIn0.KfO2shtP71NsQ98XkOOVl_lZFLparEXgrVArn9ysQTE";
+        });
 
         app.UseEndpoints(endpoints =>
         {
